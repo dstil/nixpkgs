@@ -789,6 +789,8 @@ in
 
   dlx = callPackage ../misc/emulators/dlx { };
 
+  domoticz = callPackage ../servers/domoticz { };
+
   dosage = pythonPackages.dosage;
 
   dpic = callPackage ../tools/graphics/dpic { };
